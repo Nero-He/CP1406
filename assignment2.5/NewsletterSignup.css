@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*For the nav bar */
+.navbar	ul {
+	display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+.navbar li a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+	color: black;
+}
+#Shopname a{
+	font-size: 50px;
+}
+
+/* Nav Bar End*/
+
+/*Sign */
+#sign {
+	font-size: 25px;
+}

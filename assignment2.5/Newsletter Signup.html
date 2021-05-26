@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Newsletter Signup</title>
+<link rel="stylesheet" type="text/css" href="NewsletterSignup.css">
+<link rel="stylesheet" type="text/javascript" href="Newsletter Signup.js">
+
+</head>
+
+<body>
+<!--Nav Bar -->
+<div class="navbar">
+	<ul>
+	<li id="Shopname" class="Shopname"><a>Petite Treats</a></li>
+    <li class="navbar"><a href="index.html">Home</a></li>
+  	<li class="navbar"><a href="index.html">Menu</a></li>
+  	<li class="navbar"><a href="index.html">Speical Discount</a></li>
+	</ul></div>
+<div>——————————————————————————————————————————————————————————————————————————————————</div>
+<!--Nav Bar -->
+
+<!--Submit function -->
+<h1 align="center" id="sign">Please type your information and the products which you interests</h1>
+	
+<div align="center">
+<form action="Newsletter Signup.html" method="post" id="myForm">
+<label>Name</label><input type="text" name="name" id="name" required />
+<br>
+<label>Email</label><input type="text" name="contact" id="contact" required/>
+<br>
+<label>BirthDay</label><input type="text" name="birth" id="birth"  required/>
+<br>
+<select id="productInterest">
+	<option>Chocolate Cake</option>
+	<option>Apple Pie</option>
+	<option>Macaron</option>
+	<option>Fruit Pie</option>
+	<option>Bread</option>
+</select>
+  <br>
+<button type="submit" value="Submit" onClick="myFunction()">Submit</button>
+</form>
+<p id="demo"></p>
+</div>
+
+
+
+</body>
+</html>

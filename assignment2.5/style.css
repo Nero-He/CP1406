@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mainpicture{
+	
+		display: table-cell;
+		vertical-align:bottom;
+		width:720px;
+		height: 600px;
+		background-color: white;
+		margin-left: 2cm;
+}
+
+/*For the nav bar */
+.navbar	ul {
+	display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+.navbar li a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+	color: black;
+}
+#Shopname a{
+	font-size: 50px;
+}
+
+/* Nav Bar End*/
+
+/* Menu */
+#menuUL {list-style-type: none;
+	margin-top: -90px;
+	margin-left: 220px;
+}
+.MenuOp {}
+#menutitle {
+	position: relative;
+	left: 580px;
+	top: -30px;
+}
+#submitpage{
+	font-size: 14px;
+	position: relative;
+	left: 1100px;
+}
+/* Week Discount */
+.WeekDiscount{
+	width: 800px;
+	height: 500px;
+}
+
+
+/* Current Customer */
+.sentence1{
+	font-weight: bolder
+}
+.sentence2{
+	font-weight: bolder
+	}
